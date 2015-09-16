@@ -10,6 +10,7 @@ func TestReverse(t *testing.T) {
 		{"Hello, world", "dlrow ,olleH"},
 		{"Hello, 世界", "界世 ,olleH"},
 		{"", ""},
+		{"test", "test"},
 	}
 
 	//Now simply loop thru all cases and error out on failures...
